@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Responsive Header</title>
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+  .text-gold { color: #d4af37; }
+  .bg-gold { background-color: #d4af37; }
+</style>
+
+  <!-- Custom gold style -->
+<style>
+  .text-gold { color: #d4af37; }
+  .bg-gold { background-color: #d4af37; }
+</style>
+
 </head>
 <body class="bg-gray-100">
 
@@ -46,6 +58,65 @@
       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
     </div>
   </header>
+
+  
+<!-- Main Section -->
+<main class="bg-white text-gray-800">
+
+  <!-- Hero Banner -->
+  <section class="relative bg-[url('https://images.unsplash.com/photo-1609941030065-703547b0e22f?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center h-[80vh] flex items-center">
+    <div class="bg-black bg-opacity-60 w-full h-full absolute top-0 left-0"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-white max-w-xl">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Elegant Gifts for Extraordinary Moments</h1>
+        <p class="text-lg mb-8">Discover handpicked luxury gifts for every occasion, wrapped in sophistication and care.</p>
+        <a href="#" class="bg-gold text-black px-6 py-3 font-semibold rounded hover:bg-yellow-400 transition">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Featured Collections</h2>
+      <p class="text-gray-600 mb-10">Elevate your gifting game with our most loved luxury picks.</p>
+
+      <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1606813909359-d6b22975d8ff?auto=format&fit=crop&w=600&q=80" alt="Gift Box" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Luxury Gift Box</h3>
+            <p class="text-gray-600 mt-2">$129</p>
+            <a href="#" class="mt-4 inline-block text-gold hover:underline">View Details</a>
+          </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1603201667230-879a7cbbd3ce?auto=format&fit=crop&w=600&q=80" alt="Perfume Set" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Designer Perfume Set</h3>
+            <p class="text-gray-600 mt-2">$249</p>
+            <a href="#" class="mt-4 inline-block text-gold hover:underline">View Details</a>
+          </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1618354691215-2f4c82c32e97?auto=format&fit=crop&w=600&q=80" alt="Jewelry Hamper" class="w-full h-56 object-cover">
+          <div class="p-4">
+            <h3 class="font-semibold text-lg">Jewelry Hamper</h3>
+            <p class="text-gray-600 mt-2">$399</p>
+            <a href="#" class="mt-4 inline-block text-gold hover:underline">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+
 
 
   <!-- Footer -->
@@ -107,10 +178,6 @@
 </footer>
 
 <!-- Custom color style for gold -->
-<style>
-  .text-gold { color: #d4af37; }
-  .bg-gold { background-color: #d4af37; }
-</style>
 
 
   <!-- Script for menu toggle -->
